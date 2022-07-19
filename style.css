@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f1f5f9;
+}
+section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:8rem;
+}
+.our{
+  font-weight: 500;
+}
+.heading{
+ margin-bottom:3rem;
+ font-family: Monospace;
+ display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.underline{
+  border-top:2px solid #0ea5e9;
+  margin-top:7px;
+  width:5rem;
+  font-weight:600;
+}
+.img{
+  width: 150px;
+  height: 150px;
+  border-radius:150px;
+  border-right:4px solid #38bdf8;
+  border-left:2px solid #38bdf8;
+  border-bottom:4px solid #38bdf8;
+  border-top:2px solid #38bdf8;
+}
+img{
+  width: 100%;
+}
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:#fff;
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 0.25rem;
+ border-right:1px dotted #38bdf8;
+  border-left:2px solid #38bdf8;
+  border-bottom:1px dotted #38bdf8;
+  border-top:1px dotted #38bdf8;
+}
+.names {
+  font-size:0.99rem;
+  font-family: Monospace;
+  font-weight:600;
+  margin-top: 1rem;
+}
+.info {
+  text-align: center;
+}
+.job{
+  font-size:0.76rem;
+  font-family:Monospace;
+  font-weight:500;
+  margin-top:0.5rem;
+  color:#0ea5e9;
+}
+.quote{
+  font-size:0.6rem;
+  margin-top:1rem;
+  font-family: Sans-Serif;
+  line-height:0.8rem;
+  font-weight: 300;
+}
+button{
+  margin-top:1.3rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.left,.right {
+  border: transparent;
+  font-size:1.2rem;
+}
+.random {
+  font-size:0.79rem;
+  font-weight: 500;
+  font-family: Monospace;
+  padding:3px;
+  margin-top: 2rem;
+  transition:0.5s ease-in;
+  border-radius:0.1rem;
+  border: 1px solid #222;
+  background:transparent;
+}
+.random:hover {
+  background-color:#38bdf8;
+  border: 1px solid #38bdf8;
+  color:#fff;
+  font-weight:500;
+}
+
+@media screen and (min-width:576px){
+ section {
+   margin-top:5rem;
+ }
+ .container{
+ width:25rem;
+ padding:2rem;
+ }
+ .our {
+   font-size:2rem;
+ }
+ .underline{
+   width:8rem;
+ }
+ .names{
+   font-size: 1.3rem ;
+ }
+ .job{
+   font-size:0.95rem;
+ }
+ .quote{
+   font-size:0.74rem;
+   line-height:1rem;
+ }
+ .left,.right {
+   font-size:1.3rem;
+ }
+ .random {
+   font-size: 0.9rem;
+   padding:7px;
+ }
+}
